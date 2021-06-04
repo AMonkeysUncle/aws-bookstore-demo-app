@@ -1,4 +1,4 @@
-//Fail text
+//Joshua Robin 1299049
 
 const sum = require('../sum');
 
