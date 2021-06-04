@@ -7,7 +7,7 @@ import { SearchBar } from "../search/searchBar/SearchBar";
 
 interface BestSellersProps {}
 
-nterface BestSellersState {
+interface BestSellersState {
   isLoading: boolean;
   books: { bookId: any; }[];
 }
