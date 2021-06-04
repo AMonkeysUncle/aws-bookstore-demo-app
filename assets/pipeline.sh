@@ -18,6 +18,6 @@ cd src/__tests__
 npm run test
 cd ../../../
 git add .
-git commit -m $1
+git commit -m COMPX341-21A1V1
 git push origin master 
 git status

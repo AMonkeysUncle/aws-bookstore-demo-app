@@ -7,12 +7,12 @@ with open('src/__tests__/sum.test.tsx') as f:
 	firstTest = f.readline()
 	#print (firstTest)
 
-with open('src/__tests__/sum.test - Copy.tsx') as f:
-	secondTest = f.readline()
-	#print (secondTest)
+#with open('src/__tests__/sum.test - Copy.tsx') as f:
+#	secondTest = f.readline()
+#	#print (secondTest)
 
 
-if firstTest == lineCheck and secondTest == lineCheck:
+if firstTest == lineCheck:
 	print('1')
 	sys.exit(0)
 
