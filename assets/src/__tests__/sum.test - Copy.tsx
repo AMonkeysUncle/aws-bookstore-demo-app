@@ -1,5 +1,4 @@
-//Fail text
-
+//Joshua Robin 1299049
 const sum = require('../sum');
 
 test('adds 1 + 2 to equal 3', () => {

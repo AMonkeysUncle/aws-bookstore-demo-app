@@ -1,0 +1,13 @@
+//Joshua Robin 1299049
+
+with open('src/__tests__/sum.test.tsx') as f
+	first_line = f.readline()
+
+commentCheck = "//Joshua Robin 1299049"
+
+if first_line == commentCheck:
+	print("1")
+	sys.exit(0)
+
+print('0')
+sys.exit(0)

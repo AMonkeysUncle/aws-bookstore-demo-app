@@ -1,10 +1,14 @@
-#GGPC@GGPC MINGW64 ~/COMPX341-A4/aws-bookstore-demo-app/assets
+#!/usr/bin/env/ bash
 
 if [ $(python3 StaticCheck.py) = 0 ]; then
 	echo 'config not present!'
 	exit 2
 fi
-echo 'config check passed!'
+if [ $(python3 StaticVerification.py) = 0 ]; then
+	echo 'Verification failed!: Name and ID missing from header'
+	exit 2
+fi
+echo 'Verification passed!'
 #npm install
 npm run build
 cd src/__tests__
